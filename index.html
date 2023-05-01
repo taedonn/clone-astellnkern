@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Astell&Kern</title>
+    <link rel="icon" href="./img/logo_favicon.png"/>
+    <!-- 제이쿼리 연결 -->
+    <script src="./js/jquery.min.js"></script>
+
+    <!-- Slick 슬라이더 제이쿼리 플러그인 -->
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+
+    <!-- AOS 제이쿼리 플러그인 -->
+    <script src="./js/aos.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/aos.css">
+
+    <!-- 자바스크립트 연결 -->
+    <script src="./js/layout.js"></script>
+
+    <!-- css 연결 -->
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+</head>
+<body>
+    <header>
+        <div class="gnb">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu">
+                <div>
+                    <span></span>
+                    <ul class="menu1">
+                        <a href="#">STORY</a>
+                        <li><a href="#">All Story</a></li>
+                        <li><a href="#">Brand</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">People</a></li>
+                    </ul>
+                    <span></span>
+                    <ul class="menu2">
+                        <a href="#">PRODUCT</a>
+                        <li>
+                            <ul class="menu2-1">
+                                <a href="#">Whats New</a>
+                                <li>
+                                    <a href="#">Activo</a>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="menu2-2">
+                                <a href="#">DAP</a>
+                                <li>
+                                    <ul class="menu2-2a">
+                                        <a href="#">A&Ultima</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">SP2000T</a>
+                                            <a href="#">SP2000</a>
+                                            <a href="#">SP1000</a>
+                                            <a href="#">+ more(3)</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">A&Futura</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">SE180</a>
+                                            <a href="#">SE200</a>
+                                            <a href="#">SE100</a>
+                                            <a href="#">+ more(1)</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">A&Norma</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">SR25 MKII</a>
+                                            <a href="#">SR25</a>
+                                            <a href="#">SR15</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">KANN</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">KANN ALPHA</a>
+                                            <a href="#">KANN CUBE</a>
+                                            <a href="#">KANN</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Others</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">Activo CT15</a>
+                                            <a href="#">Activo CT10</a>
+                                            <a href="#">SA700</a>
+                                            <a href="#">+ more(16)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="menu2-2">
+                                <a href="#">Headphones</a>
+                                <li>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Headphone</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">AK TSP 2</a>
+                                            <a href="#">AK T1P</a>
+                                            <a href="#">AK T5P</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Earphone</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">AK ZERO1</a>
+                                            <a href="#">AK SOLA</a>
+                                            <a href="#">AK T9iE</a>
+                                            <a href="#">+ more(16)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="menu2-2">
+                                <a href="#">Home Audio</a>
+                                <li>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Amplifier</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li><a href="#">ACRO L1...</a></li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Speaker</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">AK BE...</a>
+                                            <a href="#">AK S1...</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Network Player</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">AK T1</a>
+                                            <a href="#">AK500 s...</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="menu2-2">
+                                <a href="#">Accesories</a>
+                                <li>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Case</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">SR25 MKII Case</a>
+                                            <a href="#">SP2000T Case</a>
+                                            <a href="#">SE180 Case</a>
+                                            <a href="#">+ more(23)</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Cable</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">PEP11</a>
+                                            <a href="#">PEP51</a>
+                                            <a href="#">PEP41</a>
+                                            <a href="#">+ more(18)</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">AMP</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">SEM3</a>
+                                            <a href="#">SEM2</a>
+                                            <a href="#">SP1000 AMP</a>
+                                            <a href="#">+ more(4)</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">RIPPER</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">PEM15</a>
+                                            <a href="#">PEM14</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu2-2a">
+                                        <a href="#">Acc. Others</a>
+                                        <a href="#"><img src="./img/i_arrow2.png"></a>
+                                        <li>
+                                            <a href="#">PEM 13</a>
+                                            <a href="#">PEM 12</a>
+                                            <a href="#">PEM 11</a>
+                                            <a href="#">+ more(4)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <span></span>
+                    <ul class="menu3">
+                        <a href="#">MEDIA</a>
+                        <li><a href="#">Media Coverage</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Awards</a></li>
+                    </ul>
+                    <span></span>
+                    <ul class="menu4">
+                        <a href="#">AK NEWS</a>
+                    </ul>
+                    <span></span>
+                    <ul class="menu5" style="border-bottom: 1px solid black;">
+                        <a href="#">SUPPORT</a>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Where to Buy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" id="logo" viewBox="0 0 369.62 56.38"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><polygon class="cls-1" points="95.74 2.72 88.62 2.72 88.62 12.22 82.28 12.22 82.28 18.31 88.62 18.31 88.62 55.56 95.74 55.56 95.74 18.31 104.07 18.31 104.07 12.22 95.74 12.22 95.74 2.72"/><rect class="cls-1" x="150.66" width="7.12" height="55.56"/><rect class="cls-1" x="165.08" width="7.11" height="55.56"/><polygon class="cls-1" points="240.67 24.41 263.45 0 254.41 0 230.88 25.16 230.88 0 223.92 0 223.92 55.6 230.88 55.6 230.88 34.13 235.77 29.2 257.67 55.6 267.25 55.6 240.67 24.41"/><path class="cls-1" d="M355.27,12.16a14.24,14.24,0,0,0-12,6.3V12.39h-7.13V55.56h7.13v-20c0-5,.19-9.4,1.08-11.91,1.19-3.36,4.4-4.83,9.34-4.8,3.74,0,6.23,1.28,7.5,3.87.86,1.81,1.31,4.81,1.31,9V55.56h7.15v-25Q369.62,12.18,355.27,12.16Z"/><path class="cls-1" d="M332.89,14.82c-4-2.52-6.64-2.66-7.63-2.66A9,9,0,0,0,319.55,14a18.57,18.57,0,0,0-3.66,4V12.39h-7.11V55.56h7.11V34.44c-.12-9,1.88-15.13,7.66-15.43a8.72,8.72,0,0,1,5.1,1.72Z"/><path class="cls-1" d="M195.63,10.83a10,10,0,0,0-7,2.55,8.42,8.42,0,0,0-2.73,6.43,10.43,10.43,0,0,0,1.41,4.62,27.46,27.46,0,0,0,3.64,5l.12.14-.14.11-2,1.56c-3.2,2.47-6,4.6-7.21,6.52a9.86,9.86,0,0,0-1.55,5.42,12.85,12.85,0,0,0,3.58,9.43c2.53,2.53,5.59,3.54,9.33,3.76a12.94,12.94,0,0,0,7.67-1.92,34.45,34.45,0,0,0,4-3c.73-.61,1.5-1.24,2.29-1.88l.13-.11,4.89,6h5.84l-7.26-8.73,6-5.37-2.74-3.43-6,5.39-.11-.13L197.28,30.33l.13-.11L199,29a24.25,24.25,0,0,0,4.28-3.82,8.89,8.89,0,0,0,1.88-5.53A8.18,8.18,0,0,0,203,13.75,9.94,9.94,0,0,0,195.63,10.83ZM194.16,52a8.85,8.85,0,0,1-6.57-2.44,8.61,8.61,0,0,1-3-6.38,6.26,6.26,0,0,1,1.77-4.3,38.61,38.61,0,0,1,5.11-4.2l2.13-1.59.13-.1,10.55,13-.13.11c-.66.52-1.34,1.1-2,1.66a40.12,40.12,0,0,1-3.56,2.81A9,9,0,0,1,194.16,52Zm.3-25.12-.11-.12a17.51,17.51,0,0,1-3.24-4.85,6.51,6.51,0,0,1-.47-2.8,4,4,0,0,1,1.4-3,5.07,5.07,0,0,1,3.41-1.19,5.21,5.21,0,0,1,3.6,1.33,4,4,0,0,1,1.47,3.11,5.48,5.48,0,0,1-1.2,3.22,18.28,18.28,0,0,1-3.47,3.19l-1.27,1Z"/><path class="cls-1" d="M136.81,42.61q-4.62,7.06-11.76,7.06a12.78,12.78,0,0,1-9.78-4.1,14.48,14.48,0,0,1-3.91-10h32.86q.53-9.88-4.64-16.61c-3.67-4.81-8.77-7.22-15.22-7.22q-9.42,0-15.06,6.76c-3.5,4.2-5.23,9.54-5.23,16.09a22.26,22.26,0,0,0,5.64,15.5c3.77,4.16,8.71,6.21,14.82,6.21,8.2,0,14.43-3.52,18.63-10.61ZM111.72,29.47a12.29,12.29,0,0,1,4.34-7.83,12.54,12.54,0,0,1,8.39-3.23,11.63,11.63,0,0,1,8.1,3.17,13,13,0,0,1,4.17,7.89Z"/><path class="cls-1" d="M295.63,42.61q-4.62,7.06-11.76,7.06a12.75,12.75,0,0,1-9.77-4.1,14.44,14.44,0,0,1-3.92-10H303q.52-9.88-4.64-16.61c-3.67-4.81-8.77-7.22-15.21-7.22S271.88,14,268.12,18.5c-3.5,4.2-5.23,9.54-5.23,16.09a22.22,22.22,0,0,0,5.65,15.5c3.76,4.16,8.7,6.21,14.81,6.21,8.2,0,14.44-3.52,18.64-10.61ZM270.54,29.47a12.3,12.3,0,0,1,4.35-7.83,12.53,12.53,0,0,1,8.39-3.23,11.61,11.61,0,0,1,8.09,3.17,13.11,13.11,0,0,1,4.18,7.89Z"/><path class="cls-1" d="M25,.13,0,56.24H1.43L37.13,37,44.64,55.6h8.61L28.5.13Zm9.4,30.68-17.91,10L13.6,43,26,15.1l.73-2.35.73,2.38Z"/><path class="cls-1" d="M75.39,32.48c-.89-.49-2.8-1.48-8.44-4-3.42-1.5-5.14-3.05-5.14-5.16a4.65,4.65,0,0,1,1.63-3.56A5.54,5.54,0,0,1,67,18.37c2.58,0,4.49,1.42,6,4.93l6-3.14c-1.46-2.63-2.74-4.67-4.58-6.1a11.38,11.38,0,0,0-6.88-2.35,12.83,12.83,0,0,0-8.93,3.38A11.16,11.16,0,0,0,55,23.64a11.08,11.08,0,0,0,5.26,8.89c3.16,1.85,5.83,2.91,8.88,4.34,3.31,1.64,5.65,3.39,5.18,6.72A6.8,6.8,0,0,1,72,48a6.31,6.31,0,0,1-4.74,1.65c-3.71,0-6.6-2.24-8.64-6.74l-6.39,2.7a16.48,16.48,0,0,0,5.67,7.85,15.51,15.51,0,0,0,9.27,2.82,14.4,14.4,0,0,0,10.14-3.9,12.41,12.41,0,0,0,4.19-9.27A10.87,10.87,0,0,0,75.39,32.48Z"/></g></g></svg>
+            </a>
+        </div>
+        <ul class="gnb-menu">
+            <li>
+                <a class="gnb-main" href="#">STORY</a>
+                <ul class="gnb-menu1">
+                    <li><a href="#">ALL STORY</a></li>
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">SOUND</a></li>
+                    <li><a href="#">PEOPLE</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="gnb-main" href="#">PRODUCT</a>
+                <ul class="gnb-menu1">
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">DAP</a></li>
+                    <li><a href="#">Headphones</a></li>
+                    <li><a href="#">Home Audio</a></li>
+                    <li><a href="#">Accesories</a></li>
+                    <li><a href="#">Activo</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="gnb-main" href="#">MEDIA</a>
+                <ul class="gnb-menu1">
+                    <li><a href="#">Media Coverage</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Awards</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="gnb-main" href="#">AK NEWS</a>
+                <ul class="gnb-menu1">
+                    <li><a href="#">AK NEWS</a></li>
+                    <li><a href="#">Notice</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="gnb-main" href="#">SUPPORT</a>
+                <ul class="gnb-menu1">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Where to Buy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search">
+            <svg xmlns="http://www.w3.org/2000/svg" id="searchbar" viewBox="0 0 372.78 372.78"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1" d="M372.78,345.81,280,253a156.59,156.59,0,1,0-27,27l92.8,92.81ZM72.91,240.27a118.34,118.34,0,1,1,167.36,0A118.33,118.33,0,0,1,72.91,240.27Z"/></g></g></svg>
+        </div>
+    </header>
+    <a id="scrolltop"></a>
+    <section class="line-bg">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+        <span class="line4"></span>
+        <span class="line5"></span>
+        <span class="line6"></span>
+        <span class="line7"></span>
+        <span class="line8"></span>
+        <span class="line9"></span>
+        <span class="line10"></span>
+    </section>
+    <div id="wrap">
+        <div class="fixedbox fixedbox_0">
+            <div>
+                <input id="star" name="star" type="checkbox">
+                <label for="star">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.98 83.33"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1" d="M79.88,32.32a1.75,1.75,0,0,0-1.64-1.15H51.67l-10-30.11a1.82,1.82,0,0,0-3.3,0l-10,30.11H1.74A1.74,1.74,0,0,0,.63,34.25l20,16.63L10.52,81A1.72,1.72,0,0,0,11,82.76l4.63-6,8.65-26A1.74,1.74,0,0,0,23.72,49L6.54,34.65h23a1.74,1.74,0,0,0,1.65-1.19L40,7.11l8.78,26.35a1.74,1.74,0,0,0,1.65,1.19h23L56.26,49a1.74,1.74,0,0,0-.53,1.89l8.67,26L41,59.34A1.74,1.74,0,0,0,40,59s-.07,0-.11,0v4L40,62.9,66.77,83a1.71,1.71,0,0,0,1,.34,1.77,1.77,0,0,0,1-.33,1.74,1.74,0,0,0,.63-2L59.4,50.88,79.35,34.25A1.75,1.75,0,0,0,79.88,32.32Z"/></g></g></svg>
+                    <a href="#">Listen to our New Product</a>
+                </label>
+            </div>
+            <a href="#" class="topnav">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 113">
+                    <defs>
+                    <style>
+                        .cls-1 {
+                        fill: #fff;
+                        fill-rule: evenodd;
+                        }
+                    </style>
+                    </defs>
+                    <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-1" d="M173.509,93.427l-8.1,8.1L92.344,28.465,19.28,101.529l-8.1-8.1L84.243,20.364l-0.069-.069,8.1-8.1,0.07,0.069,0.069-.069,8.1,8.1-0.069.069Z"/>
+                </svg>
+                <h2>TOP</h2>
+            </a>
+        </div>
+        <div class="content1">
+            <!-- 
+                autoplay=1 : 자동재생
+                mute=1 : 음소거 (음소거했을때만 자동재생가능)
+                loop=1 : 반복재생 (뒤에 playlist 명시해야만 가능)
+                playlist=video_id : www.youtube.com/embeded/(...) => 여기서 ...에 해당하는 아이디를 video_id에 넣으면 반복재생 가능
+                vq=hd1080 : 1080p 화질로 실행
+                enablejsapi=1&theme=light&showinfo=0 : 자바스크립트로 제어 가능해짐
+                rel=0 : 비디오 일시정지 했을 때 광고, 팝업 제거
+             -->
+             <!-- 유튜브 iframe API 설정 -->
+             <script>
+                var tag = document.createElement('script');
+                tag.src = "https://www.youtube.com/iframe_api";
+                var firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                var player;
+                function onYouTubeIframeAPIReady(){
+                    player = new YT.Player('yt_player',{
+                        width:'100%',
+                        videoId:'T-OEFHmJdpU',
+                        playerVars:{ 'autoplay':1,'playlist':'T-OEFHmJdpU','loop':1,'quality':'high','controls':0 },
+                        events:{
+                            'onReady':onPlayerReady,
+                            'onError':onPlayerError
+                        }
+                    });
+                }
+
+                function onPlayerReady(e){
+                    e.target.mute();
+                    e.target.playVideo();
+                }
+
+                function onPlayerError(){
+                    console.log("error");
+                    location.reload();
+                }
+            </script>
+            <div class="iframe_wrap"></div>
+            <div id="yt_player"></div>
+            <div class="content1-txt">
+                <h2>DIFFERENCE</h2>
+                <h4>In Sound Quality</h4>
+            </div>
+            <div>
+                <div class="content1-1">
+                    <span></span>
+                </div>
+                <div class="content1-2">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.77 110.89"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><polygon class="cls-1" points="0 0 0 66.61 8.92 66.61 8.92 15.49 72.76 54.93 0.04 100.73 0.04 110.89 89.77 55.02 0 0"/></g></g></svg>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" style="top: 12px" viewBox="0 0 89.77 110.89"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><rect class="cls-1" width="9.81" height="79.85"/><rect class="cls-1" x="49.9" width="9.81" height="79.85"/></g></g></svg>
+                    </div>
+                </div>
+                <div class="content1-3" id="progressbar"></div>
+            </div>
+        </div>
+        <div class="content2">
+            <h4>
+                Ultimate High Fidelity Sound System, 
+                <span>Astell&Kern</span>
+            </h4>
+            <div class="slide-txt">
+                <div>
+                    <h3>Find Your Optimal Sound</h3>
+                    <h2>SP2000T</h2>
+                    <h4>
+                        The SP2000T combines the OP AMP configuration of our SP2000 with a nostalgic<br>
+                        vacuum TUBE AMP, adding a vintage feel to the portable player.
+                    </h4>
+                </div>
+                <div>
+                    <h3>Shape Your Sound</h3>
+                    <h2>SE180</h2>
+                    <h4>
+                        The third product in the A&futura line, the SE180, continues the trend of exciting<br>
+                        innovation for Astell&Kern products.
+                    </h4>
+                </div>
+                <div>
+                    <h3>The New Hi-Fi Standard,</h3>
+                    <h2>SR25</h2>
+                    <h4>
+                        The SR25 is the second model in the Astell&Kern A&norma standard line.
+                    </h4>
+                </div>
+                <div>
+                    <h3>The Power House,</h3>
+                    <h2>KANN ALPHA</h2>
+                    <h4>
+                        KANN ALPHA is the third model from the KANN line, which focuses on high fidelity<br>
+                        with powerful output and low noise.
+                    </h4>
+                </div>
+            </div>
+            <div class="slide-img">
+                <div><img src="https://i.ibb.co/3SgHmhj/1.jpg" alt="1"></div>
+                <div><img src="https://i.ibb.co/mHdY1T7/2.jpg"></div>
+                <div><img src="https://i.ibb.co/NSCs9Cs/3.jpg"></div>
+                <div><img src="https://i.ibb.co/K6pLdGc/4.jpg"></div>
+            </div>
+            <div class="slide-btn">
+                <button class="slide-prev">
+                    <h2>Prev</h2>
+                    <div></div>
+                    <h3 class="prev-name">KANN ALPHA</h3>
+                </button>
+                <button class="slide-next">
+                    <h2>Next</h2>
+                    <div></div>
+                    <h3 class="next-name">SE180</h3>
+                </button>
+            </div>
+            <div class="progress-bar"></div>
+        </div>
+        <div class="content3">
+            <div class="content3-menu">
+                <input type="radio" name="content3-slide" id="content3-slide1" checked>
+                <input type="radio" name="content3-slide" id="content3-slide2">
+                <input type="radio" name="content3-slide" id="content3-slide3">
+                <input type="radio" name="content3-slide" id="content3-slide4">
+                <label for="content3-slide1">DAP</label>
+                <label for="content3-slide2">Headphones</label>
+                <label for="content3-slide3">Home Audio</label>
+                <label for="content3-slide4">Accesories</label>
+                <div class="content3-1">
+                    <div>
+                        <div class="content3-a">
+                            <div class="content3-a-slide"></div>
+                            <div class="content3-btn1">
+                                <div class="content3-btn1-left">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="content3-btn1-right">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content3-b">
+                            <div class="content3-b-slide"></div>
+                            <div class="content3-b-slide2"></div>
+                            <div class="content3-b-slide3">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.02 187.56"><defs><style>.cls-1a{fill:#cc2039;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1a" d="M83.45,0,0,187.56H4.77l119.36-64.19,25.08,62H178L95.27,0Zm31.42,102.56L55,136.09l-9.55,7.36,41.44-93.4,2.42-7.86,2.46,7.94Z"/></g></g></svg>
+                                </div>
+                                <span role="progressbar" aria-valuemin="0" aria-valuemax="100"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content3-2">
+                    <div>
+                        <div class="content3-a">
+                            <div class="content3-a-slide"></div>
+                            <div class="content3-btn1">
+                                <div class="content3-btn1-left">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="content3-btn1-right">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content3-b">
+                            <div class="content3-b-slide"></div>
+                            <div class="content3-b-slide2"></div>
+                            <div class="content3-b-slide3">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.02 187.56"><defs><style>.cls-1a{fill:#cc2039;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1a" d="M83.45,0,0,187.56H4.77l119.36-64.19,25.08,62H178L95.27,0Zm31.42,102.56L55,136.09l-9.55,7.36,41.44-93.4,2.42-7.86,2.46,7.94Z"/></g></g></svg>
+                                </div>
+                                <span role="progressbar" aria-valuemin="0" aria-valuemax="100"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content3-3">
+                    <div>
+                        <div class="content3-a">
+                            <div class="content3-a-slide"></div>
+                            <div class="content3-btn1">
+                                <div class="content3-btn1-left">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="content3-btn1-right">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content3-b">
+                            <div class="content3-b-slide"></div>
+                            <div class="content3-b-slide2"></div>
+                            <div class="content3-b-slide3">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.02 187.56"><defs><style>.cls-1a{fill:#cc2039;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1a" d="M83.45,0,0,187.56H4.77l119.36-64.19,25.08,62H178L95.27,0Zm31.42,102.56L55,136.09l-9.55,7.36,41.44-93.4,2.42-7.86,2.46,7.94Z"/></g></g></svg>
+                                </div>
+                                <span role="progressbar" aria-valuemin="0" aria-valuemax="100"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content3-4">
+                    <div>
+                        <div class="content3-a">
+                            <div class="content3-a-slide"></div>
+                            <div class="content3-btn1">
+                                <div class="content3-btn1-left">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="content3-btn1-right">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content3-b">
+                            <div class="content3-b-slide"></div>
+                            <div class="content3-b-slide2"></div>
+                            <div class="content3-b-slide3">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.02 187.56"><defs><style>.cls-1a{fill:#cc2039;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1a" d="M83.45,0,0,187.56H4.77l119.36-64.19,25.08,62H178L95.27,0Zm31.42,102.56L55,136.09l-9.55,7.36,41.44-93.4,2.42-7.86,2.46,7.94Z"/></g></g></svg>
+                                </div>
+                                <span role="progressbar" aria-valuemin="0" aria-valuemax="100"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="content4">
+            <h2 class="content4-txt" data-aos="slide-up" data-aos-duration="2000">
+                We believe <span>Astell&Kern</span> is the center of music.
+            </h2>
+            <div class="content4-1">
+                <div class="content4-1-left">
+                    <a href="#" class="left4-1" data-aos="slide-up" data-aos-duration="2000">
+                        <img src="https://i.ibb.co/31hjP66/img4-1.jpg"/>
+                        <span>
+                            <h3>AK ULTIMATE SOUND SOLUTION</h3>
+                            <h4>TERATON ALPHA</h4>
+                        </span>
+                    </a>
+                    <a class="left4-2" href="#" data-aos="slide-up" data-aos-duration="2000">
+                        <img src="https://i.ibb.co/NZjNT0G/img4-2.jpg"/>
+                        <span>
+                            <h3>The story of people who are inspired by music</h3>
+                            <h4>DAVID JAMIN</h4>
+                        </span>
+                    </a>
+                </div>
+                <div class="content4-1-right">
+                    <a href="#" class="right4-1" data-aos="slide-up" data-aos-duration="1500">
+                        <img src="https://i.ibb.co/094H1DS/img4-3.jpg"/>
+                        <span>
+                            <h3>WE USE THE POWER OF MUSIC TO FULFILL YOUR LIFE</h3>
+                            <h4>Difference in Sound Quality</h4>
+                        </span>
+                    </a>
+                    <a href="#" class="right4-2" data-aos="slide-up" data-aos-duration="1500">
+                        <img src="https://i.ibb.co/c1hSTPP/img4-4.jpg"/>
+                        <span>
+                            <h3>People Story</h3>
+                            <h4>We Love Music</h4>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="content5">
+            <div class="content5_1">
+                <div class="content5_slider">
+                    <img src="https://i.ibb.co/tJR8K7f/img5-1.jpg">
+                    <img src="https://i.ibb.co/W5SVWCv/img5-2.jpg">
+                    <img src="https://i.ibb.co/4sJtxWb/img5-3.jpg">
+                    <img src="https://i.ibb.co/DfqZyyV/img5-4.jpg">
+                </div>
+            </div>
+            <div class="content5_2">
+                <div class="content5_2_wrap">
+                    <h2>
+                        IMAGINE<br>
+                        YOUR OWN LIFE
+                    </h2>
+                    <div class="content5_2_slider">
+                        <div class="content5_2_slider_wrap">
+                            <div class="content5_2_left">
+                                <h3>
+                                    Prev
+                                </h3>
+                                <div class="content5_2_left_slider">
+                                    <img src="https://i.ibb.co/DfqZyyV/img5-4.jpg" alt="img5-4">
+                                    <img src="https://i.ibb.co/tJR8K7f/img5-1.jpg" alt="img5-1">
+                                    <img src="https://i.ibb.co/W5SVWCv/img5-2.jpg" alt="img5-2">
+                                    <img src="https://i.ibb.co/4sJtxWb/img5-3.jpg" alt="img5-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content5_2_slider_wrap">
+                            <div class="content5_2_right">
+                                <h3>
+                                    Next
+                                </h3>
+                                <div class="content5_2_right_slider">
+                                    <img src="https://i.ibb.co/W5SVWCv/img5-2.jpg" alt="img5-2">
+                                    <img src="https://i.ibb.co/4sJtxWb/img5-3.jpg" alt="img5-3">
+                                    <img src="https://i.ibb.co/DfqZyyV/img5-4.jpg" alt="img5-4">
+                                    <img src="https://i.ibb.co/tJR8K7f/img5-1.jpg" alt="img5-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content5_3">
+                <div class="content5_3_txt">
+                    <h2>
+                        NEWS
+                    </h2>
+                    <div>
+                        <h3>
+                            Show All News
+                        </h3>
+                        <div class="content5_3_txt_img">
+                            <img src="./img/i_arrow_white.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="content5_3_news_wrap">
+                <li class="content5_3_news">
+                    <a href="#">
+                        <img src="./img/news_1.png"/>
+                    </a>
+                    <h4>Notice</h4>
+                    <h5>
+                        Notice about Embedded Deezer APP
+                    </h5>
+                </li>
+                <li class="content5_3_news">
+                    <a href="#">
+                        <img src="./img/news_2.png"/>
+                    </a>
+                    <h4>Notice</h4>
+                    <h5>
+                        Notice about Embedded Tidal APP
+                    </h5>
+                </li>
+                <li class="content5_3_news">
+                    <a href="#">
+                        <img src="./img/news_3.png"/>
+                    </a>
+                    <h4>Notice</h4>
+                    <h5>
+                        MQS Streaming Server Software will be dis...
+                    </h5>
+                </li>
+                <li class="content5_3_news">
+                    <a href="#">
+                        <img src="./img/news_4.png"/>
+                    </a>
+                    <h4>Notice</h4>
+                    <h5>
+                        Notice about Embedded Tidal APP
+                    </h5>
+                </li>
+            </ul>
+            <div class="content5_3_slider_wrap">
+                <span>01</span>
+                <div class="content3-b-slide3">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.02 187.56"><defs><style>.cls-1a{fill:#cc2039;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1a" d="M83.45,0,0,187.56H4.77l119.36-64.19,25.08,62H178L95.27,0Zm31.42,102.56L55,136.09l-9.55,7.36,41.44-93.4,2.42-7.86,2.46,7.94Z"/></g></g></svg>
+                    </div>
+                    <span role="progressbar" aria-valuemin="0" aria-valuemax="100"></span>
+                </div>
+                <span>04</span>
+            </div>
+            <div class="fixedbox fixedbox_1">
+                <div>
+                    <input id="star_1" name="star" type="checkbox">
+                    <label for="star_1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.98 83.33"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1" d="M79.88,32.32a1.75,1.75,0,0,0-1.64-1.15H51.67l-10-30.11a1.82,1.82,0,0,0-3.3,0l-10,30.11H1.74A1.74,1.74,0,0,0,.63,34.25l20,16.63L10.52,81A1.72,1.72,0,0,0,11,82.76l4.63-6,8.65-26A1.74,1.74,0,0,0,23.72,49L6.54,34.65h23a1.74,1.74,0,0,0,1.65-1.19L40,7.11l8.78,26.35a1.74,1.74,0,0,0,1.65,1.19h23L56.26,49a1.74,1.74,0,0,0-.53,1.89l8.67,26L41,59.34A1.74,1.74,0,0,0,40,59s-.07,0-.11,0v4L40,62.9,66.77,83a1.71,1.71,0,0,0,1,.34,1.77,1.77,0,0,0,1-.33,1.74,1.74,0,0,0,.63-2L59.4,50.88,79.35,34.25A1.75,1.75,0,0,0,79.88,32.32Z"/></g></g></svg>
+                        <a href="#">Listen to our New Product</a>
+                    </label>
+                </div>
+                <a href="#" class="topnav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 113">
+                        <defs>
+                        <style>
+                            .cls-1 {
+                            fill: #fff;
+                            fill-rule: evenodd;
+                            }
+                        </style>
+                        </defs>
+                        <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-1" d="M173.509,93.427l-8.1,8.1L92.344,28.465,19.28,101.529l-8.1-8.1L84.243,20.364l-0.069-.069,8.1-8.1,0.07,0.069,0.069-.069,8.1,8.1-0.069.069Z"/>
+                    </svg>
+                    <h2>TOP</h2>
+                </a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_left">
+                <img src="./img/logo_favicon.png"/>
+                <div class="footer_left_txt">
+                    <ul class="footer_left_row_1">
+                        <li>
+                            <a href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Legal Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Where to buy
+                            </a>
+                        </li>
+                    </ul>
+                    <h2>
+                        311, Gangnam-daero, Seocho-Gu, Seoul, Republic of Korea | Business registration No. 214-86-29288<br/>
+                        Representative Director Ki-Young Lee<br/><br/>
+                        COPYRIGHT Dreamus Company, ALL RIGHT RESERVED.
+                    </h2>
+                </div>
+            </div>
+            <div class="footer_right">
+                <ul class="footer_family_site">
+                    <input type="checkbox" id="family_site"/>
+                    <label for="family_site">
+                        FAMILY SITE
+                    </label>
+                    <ul>
+                        <li>
+                            Astell&Kern Korea
+                        </li>
+                        <li>
+                            DREAMUS
+                        </li>
+                        <li>
+                            ACTIVO
+                        </li>
+                    </ul>
+                </ul>
+                <div class="footer_sns">
+                    <img src="./img/instagram_logo.png"/>
+                    <img src="./img/facebook_logo.png"/>
+                    <img src="./img/youtube_logo.png"/>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Slick 슬라이더 연결 -->
+    <script>
+        AOS.init({
+            disable: function() {
+                var maxWidth = 1080;
+                return window.innerWidth < maxWidth;
+            }
+        });
+
+        $(".slide-txt").slick({
+            slidesToShow:1,
+            slidesToScroll: 1,
+            infinite:true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            asNavFor:".slide-img",
+            nextArrow:$('.slide-next'),
+            prevArrow:$('.slide-prev')
+        });
+        $(".slide-img").slick({
+            slidesToShow:1,
+            slidesToScroll:1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            fade:true,
+            asNavFor:".slide-txt",
+        })
+
+        //슬라이드 이동 시 변경되는 이벤트
+        let i = 0;
+        $(".slide-txt").on("afterChange",function(){
+            i++;
+            if(i==4){ //마지막 슬라이드 => 처음 슬라이드
+                i = 0;
+            }
+            if(i==0){
+                $(".prev-name").text("KANN ALPHA");
+                $(".next-name").text("SE180");
+            }
+            else if(i==1){
+                $(".prev-name").text("SP2000T");
+                $(".next-name").text("SR25");
+            }
+            else if(i==2){
+                $(".prev-name").text("SE180");
+                $(".next-name").text("KANN ALPHA");
+            }
+            else if(i==3){
+                $(".prev-name").text("SR25");
+                $(".next-name").text("SP2000T");
+            }
+
+            //progress-bar 실행 이벤트
+            $(".progress-bar").animate({ width:"100%" },5000);
+
+            //버튼 클릭 시 progress-bar 애니메이션 중지 및 큐 제거 이벤트
+            $(".slide-prev").on("click",function(){
+                $(".progress-bar").stop(true,true); //stop(clearQueue,goToEnd) => 속성값을 전부 true로 반환하여 실행
+                //progress-bar 원상태로 돌리는 이벤트
+                $(".progress-bar").animate({ width:"0%" },10);
+            });
+            $(".slide-next").on("click",function(){
+                $(".progress-bar").stop(true,true);
+                //progress-bar 원상태로 돌리는 이벤트
+                $(".progress-bar").animate({ width:"0%" },10);
+            });
+        });
+
+        //슬라이드 이동 전 변경되는 이벤트
+        $(".slide-txt").on("beforeChange",function(){
+            //progress-bar queue 제거
+            $(".progress-bar").stop(true,true);
+
+            //progress-bar 원상태로 돌리는 이벤트
+            $(".progress-bar").animate({ width:"0%" },10);
+        });
+
+        $(".content5_slider").slick({
+            slidesToShow:1,
+            slidesToScroll:1,
+            infinite:true,
+            arrows:true,
+            autoplay:true,
+            autoplaySpeed:2000,
+            fade:true,
+            nextArrow:$('.content5_2_right_slider'),
+            prevArrow:$('.content5_2_left_slider'),
+            asNavFor:".content5_2_left_slider, .content5_2_right_slider"
+        });
+        $(".content5_2_left_slider").slick({
+            slidesToShow:1,
+            slidesToScroll:1,
+            infinite:true,
+            fade:true,
+            asNavFor:".content5_slider, .content5_2_right_slider"
+        });
+        $(".content5_2_right_slider").slick({
+            slidesToShow:1,
+            slidesToScroll:1,
+            infinite:true,
+            fade:true,
+            asNavFor:".content5_slider, .content5_2_left_slider"
+        });
+
+        var content5_3_news_length = $(".content5_3_news").length;
+        $(".content5_3_news_wrap").slick({
+            slidesToShow:content5_3_news_length-1,
+            swipeToSlide:true,
+            infinite:false,
+            arrows:false,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 2.5,
+                        autoplay: false
+                    }
+                }
+            ]
+        });
+
+        //컨텐츠5-3 슬라이드 슬라이드 전 이벤트
+        $(".content5_3_news_wrap").on('beforeChange',function(event,slick,currentSlide,nextSlide){
+            //이동할 슬라이드의 번호 숫자를 전체 슬라이드 -1로 나누고 백을 곱해서 백분율 값을 구한다.
+            let calc = ( (nextSlide) / (slick.slideCount-2) ) * 100;
+            
+            //progress bar의 배경 가로 사이즈에 계산한 백분율 값을 넣는다.
+            $(".content5_3_slider_wrap .content3-b-slide3>span")
+            .css("background-size", calc + 50 + '% 100%')
+            .attr('aria-valuenow', calc);
+            
+            //progress bar의 아이콘의 가로 좌표값에 계산한 백분율 값을 넣는다.
+            $(".content5_3_slider_wrap .content3-b-slide3>div>svg").css("left", calc + 50 + "%");
+        });
+
+        //FAMILY SITE 클릭 이벤트
+        var footer_family_site_li_height = $(".footer_family_site li").outerHeight();
+        var footer_family_site_li_length = $(".footer_family_site li").length;
+        $(window).resize(function() { footer_family_site_li_height = $(".footer_family_site li").outerHeight(); });
+
+        $("input[id=family_site]").on('click',function(){
+            if($(this).is(":checked")){
+                if(window.innerWidth > 1080) { $(".footer_family_site ul").css({"height":(footer_family_site_li_height * footer_family_site_li_length),"top":"50px","bottom":"auto"}); }
+                else { $(".footer_family_site ul").css({"height":(footer_family_site_li_height * footer_family_site_li_length),"top":"auto","bottom":"50px"}); }
+            }
+            else{ $(".footer_family_site ul").css({ "height":"0" }); }
+        });
+
+        //오른쪽 fixed 영역 화면 맨밑 도착 시 footer 위에 고정
+        var window_bottom,
+            footer_top;
+
+        $(window).scroll(function(){
+            window_bottom = $(window).scrollTop() + $(window).height();
+            footer_top = $("footer").offset().top;
+
+            if(window_bottom >= footer_top){ // 화면이 footer보다 밑으로 갈 때
+                $(".fixedbox_0").css( "display","none" );
+                $(".fixedbox_1").css( "display","flex" );
+            }
+            else{ // 화면이 footer보다 위에 있을 때
+                $(".fixedbox_0").css( "display","flex" );
+                $(".fixedbox_1").css( "display","none" );
+            }
+        });
+
+        $(".topnav").on('click',function(){ $("html,body").animate({ scrollTop:0 },700); });
+    </script>
+</body>
+</html>
