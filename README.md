@@ -1,6 +1,6 @@
 # Astell&Kern
 
-A simple clone-coded website that clones https://astellnkern.com
+https://astellnkern.com 클론 코딩한 웹사이트
 
 Live Demo: https://clone-astellnkern.taedonn.com
 
